@@ -1,5 +1,6 @@
 import os
 import mod_wsgi.server
+import instana
 
 mod_wsgi.server.start(
   '--log-to-terminal',
